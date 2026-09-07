@@ -106,6 +106,136 @@
 
             <p><strong>Diferencia:</strong> <code>&lt;video&gt;</code> reproduce un archivo de video local o accesible como recurso de video, mientras que <code>&lt;iframe&gt;</code> permite insertar otro documento o recurso web dentro de la página.</p>
 
+<section id="horario">
+            <h2>Horario académico</h2>
+            <table border="1">
+        <caption>Horario académico - Grupo 4303A</caption>
+
+        <thead>
+            <tr>
+                <th>Materia</th>
+                <th>Día</th>
+                <th>Hora</th>
+                <th>Modalidad</th>
+            </tr>
+        </thead>
+
+        <tbody>  
+            <tr>
+                <td>Fundamentos Web<br></td>
+                <td>Lunes</td>
+                <td>7:00 a. m. - 10:00 a. m.</td>
+                <td>virtual</td>
+            </tr>
+
+            <tr>
+                <td>Cálculo Vectorial<br></td>
+                <td>Martes</td>
+                <td>7:00 a. m. - 10:00 a. m.</td>
+                <td>virtual</td>
+            </tr>
+
+            <tr>
+                <td>Humanidades I<br></td>
+                <td>Martes</td>
+                <td>10:00 a. m. - 1:00 p. m.</td>
+                <td>virtual</td>
+            </tr>
+            
+            <tr>
+                <td>Programación III<br></td>
+                <td>Miércoles</td>
+                <td>7:00 a. m. - 10:00 a. m.</td>
+                <td>virtual</td>
+            </tr>
+
+            <tr>
+                <td>Ingeniería de Software I<br></td>
+                <td>Jueves</td>
+                <td>7:00 a. m. - 10:00 a. m.</td>
+                <td>virtual</td>
+            </tr>
+
+            <tr>
+                <td>Física II<br></td>
+                <td>Viernes</td>
+                <td>7:00 a. m. - 10:00 a. m.</td>
+                <td>virtual </td>
+            </tr>
+
+            <tr>
+                <td>Lab. Física II<br></td>
+                <td>Viernes</td>
+                <td>10:30 a. m. - 1:00 p. m.</td>
+                <td>virtual</td>
+            </tr>
+
+            
+
+          
+        </tbody>
+    </table>
+</section>
+
+<section id="contacto">
+            <h2>Formulario de contacto</h2>
+            <form>
+                <fieldset>
+                    <legend>Información personal y académica</legend>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br><br>
+
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+                    <br><br>
+
+                    <label for="fecha">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha">
+                    <br><br>                
+
+                    <p>Modalidad preferida:</p>
+                    <input type="radio" id="presencial" name="modalidad" value="presencial">
+                    <label for="presencial">Presencial</label>
+                    <input type="radio" id="virtual" name="modalidad" value="virtual">
+                    <label for="virtual">Virtual</label>
+
+                    <p>Temas de interés:</p>
+                    <input type="checkbox" id="html" name="temas" value="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" id="programacion" name="temas" value="programacion">
+                    <label for="programacion">Programación</label>
+                    <input type="checkbox" id="ia" name="temas" value="ia">
+                    <label for="ia">Inteligencia artificial</label>
+                    <br><br>
+
+                    <label for="semestre-select">Seleccione su semestre:</label>
+                    <select id="semestre-select" name="semestre-select">
+                        <option value="">Seleccione</option>
+                        <option value="1">Primer semestre</option>
+                        <option value="2">Segundo semestre</option>
+                        <option value="3">Tercer semestre</option>
+                        <option value="4">Cuarto semestre</option>
+                        <option value="5">Quinto semestre</option>
+                        <option value="6">Sexto semestre</option>
+                        <option value="7">septimo semestre</option>
+                        <option value="8">Octavo semestre</option>
+                        <option value="9">Noveno semestre</option>
+                        <option value="10">Decimo semestre</option>
+                    </select>
+                    <br><br>
+
+                    <label for="comentario">Comentario:</label><br>
+                    <textarea id="comentario" name="comentario" rows="5" cols="40"></textarea>
+                </fieldset>
+
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+            </form>
+        </section>
+
 </main>
 <footer>
  <p>Taller realizado para la asignatura Fundamentos WEB.</p>
